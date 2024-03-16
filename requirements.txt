@@ -1,0 +1,13 @@
+dash
+dash_daq
+plotly
+pandas
+gunicorn
+requests
+geopy
+dash_extensions
+numpy
+dash-mantine-components
+dash_iconify
+Flask-Login
+hydra-core
