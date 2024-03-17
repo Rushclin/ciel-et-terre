@@ -185,8 +185,8 @@ def create_side_nav_content():
             dmc.Divider(),
             html.Ul(
                 html.Li(
-                    create_nav_item(path="/application/tracking",
-                                    title="Tracker", icon="map"),
+                    create_nav_item(path="/application/visualisation",
+                                    title="Visualisation", icon="map"),
                     className="nav-item",
                 )
             ),

@@ -5,3 +5,4 @@ from .a_propos import page_a_propos
 from .notifications import page_notifications
 from .sauvegardes import page_sauvegardes
 from .systemes import page_systemes
+from .visualisation import page_visualisation
