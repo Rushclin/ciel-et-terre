@@ -16,7 +16,7 @@ class LayoutCallback(BaseCallback):
 
     def __init__(self, app, args) -> None:
         super().__init__(app, args)
-        self.auth_layout = AuthLayout().get_layout()
+        self.auth_layout = AuthLayout().get_layout(self.args)
         self.dashboard_layout = DashboardLayout()
 
     def register_callback(self):

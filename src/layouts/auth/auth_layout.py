@@ -5,7 +5,7 @@ from components.input_field import InputField
 
 
 class AuthLayout:
-    def get_layout(self):
+    def get_layout(self, args):
 
         input_event = {"event": "change"}
 
@@ -24,16 +24,24 @@ class AuthLayout:
 
         layout = dmc.Container(
             children=[
+
+                dmc.Title(
+                    args.APP_NAME,
+                    my=70,
+                    align="center"
+                ),
+
                 dmc.Card(
                     children=[
                         dmc.LoadingOverlay(
                             dmc.Stack(
                                 id="loading-form",
                                 children=[
-                                    dmc.Title(
-                                        "Data Logger.",
+                                    dmc.Text(
+                                        "Connexion.",
                                         my=10,
-                                        align="center"
+                                        align="center",
+                                        style={"fontWeight": "bold"}
                                     ),
 
                                     EventListener(username_input, events=[
