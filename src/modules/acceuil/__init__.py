@@ -1,1 +1,2 @@
 from .system_info import render_system_infos
+from .controler_systeme import render_contoler_systeme
