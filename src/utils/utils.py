@@ -104,3 +104,12 @@ def format_quering(data, champ = 'time'):
         query = {champ: {'$gte': datetime.fromisoformat(data['time_start']), '$lte': datetime.fromisoformat(data['time_stop'])}}
     
     return query
+
+
+def convert_kilo_to_giga(kilo_value):
+    """
+    Fonction qui doit convertir de KO à GO
+    """
+
+    giga_value = round(kilo_value / 1073741824, 2)
+    return giga_value
