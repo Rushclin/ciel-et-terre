@@ -7,3 +7,5 @@ APP_SECRET: "291a47103f3cd8fc26d05ffc7b31e33f73ca3d459d6259bd"
 
 # Route API pour récupérer les infos du système
 API_SYSTEM: "https://" # TODO: Completer
+API_SYSTEM_MEMORY: "https://"
+API_SYSTEM_DISK: "https://"
