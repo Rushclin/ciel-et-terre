@@ -2,4 +2,5 @@
 
 
 APP_NAME: "CIEL ET TERRE"
+APP_DESCRIPTION: "Application de gestion ciel et terre"
 APP_SECRET: "291a47103f3cd8fc26d05ffc7b31e33f73ca3d459d6259bd"
