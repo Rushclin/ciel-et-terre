@@ -9,3 +9,4 @@ from .utils import create_breakpoint_two_cols
 from .utils import create_preview_body
 from .utils import create_preview_header 
 from .utils import format_quering
+from .utils import title
