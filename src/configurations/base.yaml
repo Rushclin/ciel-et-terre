@@ -9,3 +9,14 @@ APP_SECRET: "291a47103f3cd8fc26d05ffc7b31e33f73ca3d459d6259bd"
 API_SYSTEM: "https://" # TODO: Completer
 API_SYSTEM_MEMORY: "https://"
 API_SYSTEM_DISK: "https://"
+
+# Configuration pour les capteurs, Ne pas changer les values.
+SENSORS: 
+  - value: "sensor_1"
+    label: "Capteur 1"
+  - value: "sensor_2"
+    label: "Capteur 2"
+  - value: "sensor_3"
+    label: "Capteur 3"
+  - value: "sensor_4"
+    label: "Capteur 4"
