@@ -6,3 +6,4 @@ from .notifications import page_notifications
 from .sauvegardes import page_sauvegardes
 from .systemes import page_systemes
 from .visualisation import page_visualisation
+from .non_autorise import page_non_autorisee

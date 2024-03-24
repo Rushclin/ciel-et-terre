@@ -36,7 +36,7 @@ def title(title: str):
 
 
 def sub_title(sub_title: str):
-    return dmc.Title(children=sub_title, my=30, order=4, className="color-primary")
+    return dmc.Title(align="center", children=sub_title, my=30, order=4, className="color-primary")
 
 
 def create_preview_header(df):
